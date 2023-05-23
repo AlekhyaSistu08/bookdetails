@@ -1,0 +1,24 @@
+class Book
+{
+    int code;
+    String name;
+    String author;
+    Float price;
+    int qty;
+    public static void main(String args[])
+    {
+       Book b=new Book();
+       b.code = 157;
+       b.name="Half Girlfriend";
+       b.author="Chetan Bhagat";
+       b.price=366.99F;
+       b.qty=200;
+       System.out.println("===Display from Objects===");
+       System.out.println("Book Code=:"+b.code);
+       System.out.println("Book Name:"+b.name);
+       System.out.println("Book Author=:"+b.author);
+       System.out.println("Book Price=:"+b.price);
+       System.out.println("Book Quantity:"+b.qty);
+       
+    }
+}
